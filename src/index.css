@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+}
+
+/* Global settings */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #000000;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* React application */
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+}
+
+/* Section navigation spacing */
+section {
+  scroll-margin-top: 85px;
+}
+
+/* Individual section spacing */
+#home,
+#about,
+#skills,
+#projects,
+#contact {
+  scroll-margin-top: 85px;
+}
+
+/* Smooth button and link interactions */
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
